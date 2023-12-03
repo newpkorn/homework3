@@ -79,7 +79,7 @@ nav img {
 }
 
 .mycart {
-    margin: 5rem 10girem;
+    margin-top: 2em;
 }
 
 .mycart > p {
@@ -185,6 +185,10 @@ nav img {
     gap: 10px;
 }
 
+.card-icon-google-slides span {
+    color: rgb(247, 193, 45);;
+}
+
 .payment-info {
     min-height: vh;
     border: 1px solid lightgray;
@@ -227,10 +231,11 @@ nav img {
 
 .promotion-code .material-symbols-outlined {
     color: #00DBB6;
+    font-size: 2em;
 }
 
 .promotion-code input {
-    width: 35vh;
+    width: 60%;
     border: 1px solid transparent;
     border-radius: 5px;
 }
@@ -245,6 +250,11 @@ nav img {
     border-radius: 10px;
     background-color: transparent;
     cursor: pointer;
+}
+
+.promotion-code button:hover {
+    color: white;
+    background-color: #00DBB6;;
 }
 
 .total-payment {
@@ -275,4 +285,39 @@ nav img {
     cursor: pointer;
 }
 
+.payment input[type="submit"]:hover {
+    color: white;
+    background-color: #09b195;
+}
+
+@media(max-width: 1200px) {
+    nav {
+        align-items: center;
+    }
+    .opt-center, .opt-right {
+        flex-direction: column;
+        align-items: first baseline;
+        gap: 8px;
+    }
+
+    .opt-right a:last-child {
+        border-left: none;
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 1000px) {
+    .card {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sub-card {
+        min-height: auto;
+    }
+
+    /* .payment-info {
+        padding: 0;
+    } */
+}
 
