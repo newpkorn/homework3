@@ -16,13 +16,12 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Sarabun', sans-serif;
     background-color: aliceblue;
-    /* max-width: 1024px; */
-    /* margin: auto; */
+    max-width: 100%;
 }
 
 .container {
-    align-items: center;
-    border: 1px solid lightgray;
+    max-width: 80vw;
+    margin: auto;
 }
 
 nav {
@@ -80,7 +79,7 @@ nav img {
 }
 
 .mycart {
-    margin: 5rem 10rem;
+    margin: 5rem 10girem;
 }
 
 .mycart > p {
